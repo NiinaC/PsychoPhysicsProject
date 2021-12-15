@@ -1,0 +1,68 @@
+import pandas as pd
+from scipy.stats import norm
+
+dataPath = "data/"
+dataFile = "10_ShapeDimExp_2021_Dec_01_1445.csv"
+
+rawData = pd.read_csv(dataPath + dataFile)
+
+expData = pd.DataFrame(rawData, columns = ["shape", "correctAns", "key_resp.keys", "key_resp.rt"])
+#rename via dictionaries
+expData = expData.rename(columns = {"shape" : "condition", "correctAns" : "task", "shapeResp.keys" : "resp", "shapeResp.rt" : "RT"})
+
+accuracy = pd.DataFrame({"condition" : ["circle", "square"], "hits" : [0,0], "misses" : [0,0], "CRs" : [0,0], "FAs" : [0,0]})
+
+print(accuracy)
+
+for index, row in expData.iterrows():
+	if row["condition"] == "circle":
+		rowInd = 0
+		#Hit
+		if row["task"] == "circle" and row["resp"] == "left":
+			accuracy.loc[rowInd, "hits"] += 1
+		#Miss
+        elif row["task"] == "circle" and row["resp"] == "left":
+            accuracy.loc[rowInd, "misses"] += 1
+		#CRs (also should be counted as a Miss)
+        elif row["task"] == "circle" and row["resp"] == "None":
+			accuracy.loc[rowInd, "CRs"] += 1
+		#FAs
+        elif row["task"] == "square" and row["resp"] == "right":
+            accuracy.loc[rowInd, "FAs"] += 1
+
+	elif row["condition"] == "square":
+		rowInd = 1
+        #hit
+		if row["task"] == "square" and row["resp"] == "left":
+			accuracy.loc[rowInd, "hits"] += 1
+        #Miss
+        elif row["task"] =="square" and row["resp"] == "right":
+			accuracy.loc[rowInd, "misses"] += 1
+		#CRs
+        elif row["task"] == "circle" and row["resp"] == "left":
+			accuracy.loc[rowInd, "CRs"] += 1
+		#FAs
+        elif row["task"] == "square" and row["resp"] == "right":
+			accuracy.loc[rowInd, "FAs"] += 1
+
+#d' function
+def dPrime(hitRate, FArate):
+    stat = norm.ppf(hitRate) - norm.ppf(FArate)
+    return stat
+#criterion function
+def criterion(hitRate, FArate):
+    stat = -.5*(norm.ppf(hitRate) + norm.ppf(FArate))
+    return stat
+
+#count the rates
+hitRateLow = accuracy.loc[0, "hits"]/15
+FArateLow = accuracy.loc[0, "FAs"]/15		#number of false alarms designed in experiment
+
+print("d' low:", dPrime(hitRateLow, FArateLow))
+print("criterion low: ", criterion(hitRateLow, FArateLow)
+
+hitRateHigh = accuracy.loc[1, "hits"]/15
+FArateLow = accuracy.loc[1, "FAs"]/15
+
+print("d' high:", dPrime(hitRateHigh, FArateHigh))
+print("criterion high: ", criterion(hitRateHigh, FArateHigh)

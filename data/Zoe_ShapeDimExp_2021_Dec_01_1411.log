@@ -1,0 +1,537 @@
+2.6957 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+20.0919 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000017B46F01CC0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000017B46F2C4A8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1366,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+20.0923 	EXP 	window1: mouseVisible = True
+20.0924 	EXP 	window1: recordFrameIntervals = False
+20.2589 	EXP 	window1: recordFrameIntervals = True
+20.4419 	EXP 	window1: recordFrameIntervals = False
+20.9488 	EXP 	Created rules = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='rules', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.9611 	EXP 	Created cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='cross', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+20.9677 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+20.9903 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.9938 	EXP 	Created cros2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='cros2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+20.9982 	EXP 	Created opaque = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='opaque', opacity=0.05, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), texRes=128.0, units='height', win=Window(...))
+21.0385 	EXP 	rules: autoDraw = True
+32.7423 	EXP 	Imported C:/Users/Ale/Dropbox/UTU Neuroscience/PsychoPhysics/Project/Shapedots/shape.xlsx as conditions, 30 conditions, 2 params
+32.7432 	EXP 	Created sequence: random, trialTypes=30, nReps=1, seed=None
+32.7437 	EXP 	New trial (rep=0, index=0): {'shape': 'circle', 'picture': 'circle.png'}
+32.7582 	DATA 	Keypress: space
+32.7642 	EXP 	rules: autoDraw = False
+32.7642 	EXP 	image: image = 'circle.png'
+32.7642 	EXP 	cross: autoDraw = True
+33.1709 	EXP 	cross: autoDraw = False
+33.2547 	EXP 	image: autoDraw = True
+33.4567 	EXP 	image: autoDraw = False
+35.1422 	DATA 	Keypress: right
+35.2445 	EXP 	New trial (rep=0, index=1): {'shape': 'circle', 'picture': 'circle.png'}
+35.2646 	EXP 	cross: autoDraw = False
+35.2646 	EXP 	image: autoDraw = False
+35.2646 	EXP 	image: image = 'circle.png'
+35.2646 	EXP 	cross: autoDraw = True
+35.6704 	EXP 	cross: autoDraw = False
+35.7552 	EXP 	image: autoDraw = True
+35.9551 	EXP 	image: autoDraw = False
+36.3122 	DATA 	Keypress: right
+37.7400 	EXP 	New trial (rep=0, index=2): {'shape': 'square', 'picture': 'square.png'}
+37.7629 	EXP 	cross: autoDraw = False
+37.7629 	EXP 	image: autoDraw = False
+37.7629 	EXP 	image: image = 'square.png'
+37.7629 	EXP 	cross: autoDraw = True
+38.1699 	EXP 	cross: autoDraw = False
+38.2547 	EXP 	image: autoDraw = True
+38.4699 	EXP 	image: autoDraw = False
+38.6765 	DATA 	Keypress: left
+40.2394 	EXP 	New trial (rep=0, index=3): {'shape': 'square', 'picture': 'square.png'}
+40.2631 	EXP 	cross: autoDraw = False
+40.2631 	EXP 	image: autoDraw = False
+40.2631 	EXP 	image: image = 'square.png'
+40.2631 	EXP 	cross: autoDraw = True
+40.6697 	EXP 	cross: autoDraw = False
+40.7543 	EXP 	image: autoDraw = True
+40.9697 	EXP 	image: autoDraw = False
+41.0935 	DATA 	Keypress: left
+42.7407 	EXP 	New trial (rep=0, index=4): {'shape': 'circle', 'picture': 'circle.png'}
+42.7711 	EXP 	cross: autoDraw = False
+42.7711 	EXP 	image: autoDraw = False
+42.7711 	EXP 	image: image = 'circle.png'
+42.7711 	EXP 	cross: autoDraw = True
+43.1853 	EXP 	cross: autoDraw = False
+43.2536 	EXP 	image: autoDraw = True
+43.4530 	EXP 	image: autoDraw = False
+43.6746 	DATA 	Keypress: right
+45.2403 	EXP 	New trial (rep=0, index=5): {'shape': 'circle', 'picture': 'circle.png'}
+45.2700 	EXP 	cross: autoDraw = False
+45.2700 	EXP 	image: autoDraw = False
+45.2700 	EXP 	image: image = 'circle.png'
+45.2700 	EXP 	cross: autoDraw = True
+45.6860 	EXP 	cross: autoDraw = False
+45.7524 	EXP 	image: autoDraw = True
+45.9524 	EXP 	image: autoDraw = False
+46.0572 	DATA 	Keypress: left
+46.2090 	DATA 	Keypress: right
+47.7407 	EXP 	New trial (rep=0, index=6): {'shape': 'circle', 'picture': 'circle.png'}
+47.7675 	EXP 	cross: autoDraw = False
+47.7675 	EXP 	image: autoDraw = False
+47.7675 	EXP 	image: image = 'circle.png'
+47.7675 	EXP 	cross: autoDraw = True
+48.1686 	EXP 	cross: autoDraw = False
+48.2538 	EXP 	image: autoDraw = True
+48.4688 	EXP 	image: autoDraw = False
+48.8079 	DATA 	Keypress: right
+48.9744 	DATA 	Keypress: left
+50.2380 	EXP 	New trial (rep=0, index=7): {'shape': 'square', 'picture': 'square.png'}
+50.2595 	EXP 	cross: autoDraw = False
+50.2595 	EXP 	image: autoDraw = False
+50.2595 	EXP 	image: image = 'square.png'
+50.2595 	EXP 	cross: autoDraw = True
+50.6677 	EXP 	cross: autoDraw = False
+50.7512 	EXP 	image: autoDraw = True
+50.9505 	EXP 	image: autoDraw = False
+51.3066 	DATA 	Keypress: left
+52.7372 	EXP 	New trial (rep=0, index=8): {'shape': 'square', 'picture': 'square.png'}
+52.7612 	EXP 	cross: autoDraw = False
+52.7612 	EXP 	image: autoDraw = False
+52.7612 	EXP 	image: image = 'square.png'
+52.7612 	EXP 	cross: autoDraw = True
+53.1672 	EXP 	cross: autoDraw = False
+53.2509 	EXP 	image: autoDraw = True
+53.4509 	EXP 	image: autoDraw = False
+53.6889 	DATA 	Keypress: left
+55.2376 	EXP 	New trial (rep=0, index=9): {'shape': 'square', 'picture': 'square.png'}
+55.2654 	EXP 	cross: autoDraw = False
+55.2654 	EXP 	image: autoDraw = False
+55.2654 	EXP 	image: image = 'square.png'
+55.2654 	EXP 	cross: autoDraw = True
+55.6668 	EXP 	cross: autoDraw = False
+55.7512 	EXP 	image: autoDraw = True
+55.9502 	EXP 	image: autoDraw = False
+56.1724 	DATA 	Keypress: left
+57.7345 	EXP 	New trial (rep=0, index=10): {'shape': 'circle', 'picture': 'circle.png'}
+57.7523 	EXP 	cross: autoDraw = False
+57.7523 	EXP 	image: autoDraw = False
+57.7523 	EXP 	image: image = 'circle.png'
+57.7523 	EXP 	cross: autoDraw = True
+58.1666 	EXP 	cross: autoDraw = False
+58.2506 	EXP 	image: autoDraw = True
+58.4500 	EXP 	image: autoDraw = False
+58.6378 	DATA 	Keypress: right
+60.2372 	EXP 	New trial (rep=0, index=11): {'shape': 'circle', 'picture': 'circle.png'}
+60.2666 	EXP 	cross: autoDraw = False
+60.2666 	EXP 	image: autoDraw = False
+60.2666 	EXP 	image: image = 'circle.png'
+60.2666 	EXP 	cross: autoDraw = True
+60.6821 	EXP 	cross: autoDraw = False
+60.7487 	EXP 	image: autoDraw = True
+60.9505 	EXP 	image: autoDraw = False
+61.1036 	DATA 	Keypress: right
+62.7365 	EXP 	New trial (rep=0, index=12): {'shape': 'square', 'picture': 'square.png'}
+62.7642 	EXP 	cross: autoDraw = False
+62.7642 	EXP 	image: autoDraw = False
+62.7642 	EXP 	image: image = 'square.png'
+62.7642 	EXP 	cross: autoDraw = True
+63.1649 	EXP 	cross: autoDraw = False
+63.2492 	EXP 	image: autoDraw = True
+63.4500 	EXP 	image: autoDraw = False
+63.6048 	DATA 	Keypress: left
+65.2322 	EXP 	New trial (rep=0, index=13): {'shape': 'square', 'picture': 'square.png'}
+65.2481 	EXP 	cross: autoDraw = False
+65.2481 	EXP 	image: autoDraw = False
+65.2481 	EXP 	image: image = 'square.png'
+65.2481 	EXP 	cross: autoDraw = True
+65.6479 	EXP 	cross: autoDraw = False
+65.7324 	EXP 	image: autoDraw = True
+65.9335 	EXP 	image: autoDraw = False
+66.2049 	DATA 	Keypress: left
+67.7327 	EXP 	New trial (rep=0, index=14): {'shape': 'square', 'picture': 'square.png'}
+67.7523 	EXP 	cross: autoDraw = False
+67.7523 	EXP 	image: autoDraw = False
+67.7523 	EXP 	image: image = 'square.png'
+67.7523 	EXP 	cross: autoDraw = True
+68.1653 	EXP 	cross: autoDraw = False
+68.2473 	EXP 	image: autoDraw = True
+68.4476 	EXP 	image: autoDraw = False
+68.6360 	DATA 	Keypress: left
+70.2339 	EXP 	New trial (rep=0, index=15): {'shape': 'square', 'picture': 'square.png'}
+70.2594 	EXP 	cross: autoDraw = False
+70.2594 	EXP 	image: autoDraw = False
+70.2594 	EXP 	image: image = 'square.png'
+70.2594 	EXP 	cross: autoDraw = True
+70.6638 	EXP 	cross: autoDraw = False
+70.7484 	EXP 	image: autoDraw = True
+70.9635 	EXP 	image: autoDraw = False
+71.0876 	DATA 	Keypress: left
+72.7342 	EXP 	New trial (rep=0, index=16): {'shape': 'circle', 'picture': 'circle.png'}
+72.7737 	EXP 	cross: autoDraw = False
+72.7737 	EXP 	image: autoDraw = False
+72.7737 	EXP 	image: image = 'circle.png'
+72.7737 	EXP 	cross: autoDraw = True
+73.1797 	EXP 	cross: autoDraw = False
+73.2636 	EXP 	image: autoDraw = True
+73.4647 	EXP 	image: autoDraw = False
+73.5728 	DATA 	Keypress: left
+73.7197 	DATA 	Keypress: right
+75.2332 	EXP 	New trial (rep=0, index=17): {'shape': 'circle', 'picture': 'circle.png'}
+75.2611 	EXP 	cross: autoDraw = False
+75.2611 	EXP 	image: autoDraw = False
+75.2611 	EXP 	image: image = 'circle.png'
+75.2611 	EXP 	cross: autoDraw = True
+75.6632 	EXP 	cross: autoDraw = False
+75.7460 	EXP 	image: autoDraw = True
+75.9468 	EXP 	image: autoDraw = False
+76.1192 	DATA 	Keypress: right
+77.7314 	EXP 	New trial (rep=0, index=18): {'shape': 'square', 'picture': 'square.png'}
+77.7519 	EXP 	cross: autoDraw = False
+77.7519 	EXP 	image: autoDraw = False
+77.7519 	EXP 	image: image = 'square.png'
+77.7519 	EXP 	cross: autoDraw = True
+78.1619 	EXP 	cross: autoDraw = False
+78.2474 	EXP 	image: autoDraw = True
+78.4469 	EXP 	image: autoDraw = False
+78.6017 	DATA 	Keypress: right
+78.7535 	DATA 	Keypress: left
+80.2332 	EXP 	New trial (rep=0, index=19): {'shape': 'circle', 'picture': 'circle.png'}
+80.2648 	EXP 	cross: autoDraw = False
+80.2648 	EXP 	image: autoDraw = False
+80.2648 	EXP 	image: image = 'circle.png'
+80.2648 	EXP 	cross: autoDraw = True
+80.6782 	EXP 	cross: autoDraw = False
+80.7462 	EXP 	image: autoDraw = True
+80.9453 	EXP 	image: autoDraw = False
+81.2189 	DATA 	Keypress: right
+82.7339 	EXP 	New trial (rep=0, index=20): {'shape': 'square', 'picture': 'square.png'}
+82.7573 	EXP 	cross: autoDraw = False
+82.7573 	EXP 	image: autoDraw = False
+82.7573 	EXP 	image: image = 'square.png'
+82.7573 	EXP 	cross: autoDraw = True
+83.1610 	EXP 	cross: autoDraw = False
+83.2453 	EXP 	image: autoDraw = True
+83.4619 	EXP 	image: autoDraw = False
+83.6343 	DATA 	Keypress: left
+85.2313 	EXP 	New trial (rep=0, index=21): {'shape': 'circle', 'picture': 'circle.png'}
+85.2590 	EXP 	cross: autoDraw = False
+85.2590 	EXP 	image: autoDraw = False
+85.2590 	EXP 	image: image = 'circle.png'
+85.2590 	EXP 	cross: autoDraw = True
+85.6617 	EXP 	cross: autoDraw = False
+85.7445 	EXP 	image: autoDraw = True
+85.9440 	EXP 	image: autoDraw = False
+86.1002 	DATA 	Keypress: right
+87.7324 	EXP 	New trial (rep=0, index=22): {'shape': 'circle', 'picture': 'circle.png'}
+87.7622 	EXP 	cross: autoDraw = False
+87.7622 	EXP 	image: autoDraw = False
+87.7622 	EXP 	image: image = 'circle.png'
+87.7622 	EXP 	cross: autoDraw = True
+88.1765 	EXP 	cross: autoDraw = False
+88.2450 	EXP 	image: autoDraw = True
+88.4602 	EXP 	image: autoDraw = False
+88.6179 	DATA 	Keypress: right
+90.2307 	EXP 	New trial (rep=0, index=23): {'shape': 'square', 'picture': 'square.png'}
+90.2580 	EXP 	cross: autoDraw = False
+90.2580 	EXP 	image: autoDraw = False
+90.2580 	EXP 	image: image = 'square.png'
+90.2580 	EXP 	cross: autoDraw = True
+90.6599 	EXP 	cross: autoDraw = False
+90.7437 	EXP 	image: autoDraw = True
+90.9433 	EXP 	image: autoDraw = False
+91.1157 	DATA 	Keypress: right
+92.7310 	EXP 	New trial (rep=0, index=24): {'shape': 'square', 'picture': 'square.png'}
+92.7534 	EXP 	cross: autoDraw = False
+92.7534 	EXP 	image: autoDraw = False
+92.7534 	EXP 	image: image = 'square.png'
+92.7534 	EXP 	cross: autoDraw = True
+93.1593 	EXP 	cross: autoDraw = False
+93.2422 	EXP 	image: autoDraw = True
+93.4436 	EXP 	image: autoDraw = False
+93.6486 	DATA 	Keypress: right
+95.2282 	EXP 	New trial (rep=0, index=25): {'shape': 'square', 'picture': 'square.png'}
+95.2515 	EXP 	cross: autoDraw = False
+95.2515 	EXP 	image: autoDraw = False
+95.2515 	EXP 	image: image = 'square.png'
+95.2515 	EXP 	cross: autoDraw = True
+95.6588 	EXP 	cross: autoDraw = False
+95.7427 	EXP 	image: autoDraw = True
+95.9423 	EXP 	image: autoDraw = False
+96.3143 	DATA 	Keypress: left
+97.7305 	EXP 	New trial (rep=0, index=26): {'shape': 'circle', 'picture': 'circle.png'}
+97.7567 	EXP 	cross: autoDraw = False
+97.7567 	EXP 	image: autoDraw = False
+97.7567 	EXP 	image: image = 'circle.png'
+97.7567 	EXP 	cross: autoDraw = True
+98.1588 	EXP 	cross: autoDraw = False
+98.2434 	EXP 	image: autoDraw = True
+98.4413 	EXP 	image: autoDraw = False
+98.6862 	DATA 	Keypress: right
+100.2303 	EXP 	New trial (rep=0, index=27): {'shape': 'circle', 'picture': 'circle.png'}
+100.2615 	EXP 	cross: autoDraw = False
+100.2615 	EXP 	image: autoDraw = False
+100.2615 	EXP 	image: image = 'circle.png'
+100.2615 	EXP 	cross: autoDraw = True
+100.6752 	EXP 	cross: autoDraw = False
+100.7428 	EXP 	image: autoDraw = True
+100.9424 	EXP 	image: autoDraw = False
+101.1643 	DATA 	Keypress: right
+102.7436 	EXP 	New trial (rep=0, index=28): {'shape': 'square', 'picture': 'square.png'}
+102.7651 	EXP 	cross: autoDraw = False
+102.7651 	EXP 	image: autoDraw = False
+102.7651 	EXP 	image: image = 'square.png'
+102.7651 	EXP 	cross: autoDraw = True
+103.1755 	EXP 	cross: autoDraw = False
+103.2577 	EXP 	image: autoDraw = True
+103.4580 	EXP 	image: autoDraw = False
+103.5809 	DATA 	Keypress: left
+105.2423 	EXP 	New trial (rep=0, index=29): {'shape': 'circle', 'picture': 'circle.png'}
+105.2585 	EXP 	cross: autoDraw = False
+105.2585 	EXP 	image: autoDraw = False
+105.2585 	EXP 	image: image = 'circle.png'
+105.2585 	EXP 	cross: autoDraw = True
+105.6738 	EXP 	cross: autoDraw = False
+105.7409 	EXP 	image: autoDraw = True
+105.9406 	EXP 	image: autoDraw = False
+106.1138 	DATA 	Keypress: right
+107.7507 	EXP 	cross: autoDraw = False
+107.7507 	EXP 	image: autoDraw = False
+107.7507 	EXP 	text_2: autoDraw = True
+120.2192 	EXP 	Imported dimshape.xlsx as conditions, 30 conditions, 4 params
+120.2201 	EXP 	Created sequence: random, trialTypes=30, nReps=1, seed=None
+120.2206 	EXP 	New trial (rep=0, index=0): {'shape': 'square', 'colourshape': 'square.png', 'picture': 'squaredim.png', 'correctAns': 'left'}
+120.2362 	DATA 	Keypress: space
+120.2422 	EXP 	text_2: autoDraw = False
+120.2422 	EXP 	opaque: image = 'squaredim.png'
+120.2422 	EXP 	cros2: autoDraw = True
+120.6548 	EXP 	cros2: autoDraw = False
+120.9375 	EXP 	opaque: autoDraw = True
+121.0387 	EXP 	opaque: autoDraw = False
+122.7094 	EXP 	New trial (rep=0, index=1): {'shape': 'circle', 'colourshape': 'square.png', 'picture': 'circledim.png', 'correctAns': 'right'}
+122.7431 	EXP 	cros2: autoDraw = False
+122.7431 	EXP 	opaque: autoDraw = False
+122.7431 	EXP 	opaque: image = 'circledim.png'
+122.7431 	EXP 	cros2: autoDraw = True
+123.1541 	EXP 	cros2: autoDraw = False
+123.4381 	EXP 	opaque: autoDraw = True
+123.5370 	EXP 	opaque: autoDraw = False
+125.2072 	EXP 	New trial (rep=0, index=2): {'shape': 'circle', 'colourshape': 'square.png', 'picture': 'circledim.png', 'correctAns': 'right'}
+125.2314 	EXP 	cros2: autoDraw = False
+125.2314 	EXP 	opaque: autoDraw = False
+125.2314 	EXP 	opaque: image = 'circledim.png'
+125.2314 	EXP 	cros2: autoDraw = True
+125.6365 	EXP 	cros2: autoDraw = False
+125.9205 	EXP 	opaque: autoDraw = True
+126.0360 	EXP 	opaque: autoDraw = False
+127.7081 	EXP 	New trial (rep=0, index=3): {'shape': 'square', 'colourshape': 'square.png', 'picture': 'squaredim.png', 'correctAns': 'left'}
+127.7387 	EXP 	cros2: autoDraw = False
+127.7387 	EXP 	opaque: autoDraw = False
+127.7387 	EXP 	opaque: image = 'squaredim.png'
+127.7387 	EXP 	cros2: autoDraw = True
+128.1521 	EXP 	cros2: autoDraw = False
+128.4208 	EXP 	opaque: autoDraw = True
+128.5363 	EXP 	opaque: autoDraw = False
+130.2036 	EXP 	New trial (rep=0, index=4): {'shape': 'circle', 'colourshape': 'square.png', 'picture': 'circledim.png', 'correctAns': 'right'}
+130.2212 	EXP 	cros2: autoDraw = False
+130.2212 	EXP 	opaque: autoDraw = False
+130.2212 	EXP 	opaque: image = 'circledim.png'
+130.2212 	EXP 	cros2: autoDraw = True
+130.6360 	EXP 	cros2: autoDraw = False
+130.9035 	EXP 	opaque: autoDraw = True
+131.0036 	EXP 	opaque: autoDraw = False
+132.7038 	EXP 	New trial (rep=0, index=5): {'shape': 'square', 'colourshape': 'square.png', 'picture': 'squaredim.png', 'correctAns': 'left'}
+132.7269 	EXP 	cros2: autoDraw = False
+132.7269 	EXP 	opaque: autoDraw = False
+132.7269 	EXP 	opaque: image = 'squaredim.png'
+132.7269 	EXP 	cros2: autoDraw = True
+133.1369 	EXP 	cros2: autoDraw = False
+133.4181 	EXP 	opaque: autoDraw = True
+133.5181 	EXP 	opaque: autoDraw = False
+135.2033 	EXP 	New trial (rep=0, index=6): {'shape': 'circle', 'colourshape': 'square.png', 'picture': 'circledim.png', 'correctAns': 'right'}
+135.2235 	EXP 	cros2: autoDraw = False
+135.2235 	EXP 	opaque: autoDraw = False
+135.2235 	EXP 	opaque: image = 'circledim.png'
+135.2235 	EXP 	cros2: autoDraw = True
+135.6348 	EXP 	cros2: autoDraw = False
+135.9178 	EXP 	opaque: autoDraw = True
+136.0184 	EXP 	opaque: autoDraw = False
+137.7056 	EXP 	New trial (rep=0, index=7): {'shape': 'square', 'colourshape': 'square.png', 'picture': 'squaredim.png', 'correctAns': 'left'}
+137.7298 	EXP 	cros2: autoDraw = False
+137.7298 	EXP 	opaque: autoDraw = False
+137.7298 	EXP 	opaque: image = 'squaredim.png'
+137.7298 	EXP 	cros2: autoDraw = True
+138.1354 	EXP 	cros2: autoDraw = False
+138.4204 	EXP 	opaque: autoDraw = True
+138.5340 	EXP 	opaque: autoDraw = False
+140.2025 	EXP 	New trial (rep=0, index=8): {'shape': 'square', 'colourshape': 'circle.png', 'picture': 'squaredim.png', 'correctAns': 'left'}
+140.2254 	EXP 	cros2: autoDraw = False
+140.2254 	EXP 	opaque: autoDraw = False
+140.2254 	EXP 	opaque: image = 'squaredim.png'
+140.2254 	EXP 	cros2: autoDraw = True
+140.6333 	EXP 	cros2: autoDraw = False
+140.9170 	EXP 	opaque: autoDraw = True
+141.0174 	EXP 	opaque: autoDraw = False
+142.7032 	EXP 	New trial (rep=0, index=9): {'shape': 'square', 'colourshape': 'circle.png', 'picture': 'squaredim.png', 'correctAns': 'left'}
+142.7309 	EXP 	cros2: autoDraw = False
+142.7309 	EXP 	opaque: autoDraw = False
+142.7309 	EXP 	opaque: image = 'squaredim.png'
+142.7309 	EXP 	cros2: autoDraw = True
+143.1330 	EXP 	cros2: autoDraw = False
+143.4166 	EXP 	opaque: autoDraw = True
+143.5171 	EXP 	opaque: autoDraw = False
+145.2028 	EXP 	New trial (rep=0, index=10): {'shape': 'square', 'colourshape': 'circle.png', 'picture': 'squaredim.png', 'correctAns': 'left'}
+145.2245 	EXP 	cros2: autoDraw = False
+145.2245 	EXP 	opaque: autoDraw = False
+145.2245 	EXP 	opaque: image = 'squaredim.png'
+145.2245 	EXP 	cros2: autoDraw = True
+145.6330 	EXP 	cros2: autoDraw = False
+145.9179 	EXP 	opaque: autoDraw = True
+146.0326 	EXP 	opaque: autoDraw = False
+147.7028 	EXP 	New trial (rep=0, index=11): {'shape': 'square', 'colourshape': 'square.png', 'picture': 'squaredim.png', 'correctAns': 'left'}
+147.7290 	EXP 	cros2: autoDraw = False
+147.7290 	EXP 	opaque: autoDraw = False
+147.7290 	EXP 	opaque: image = 'squaredim.png'
+147.7290 	EXP 	cros2: autoDraw = True
+148.1321 	EXP 	cros2: autoDraw = False
+148.4154 	EXP 	opaque: autoDraw = True
+148.5157 	EXP 	opaque: autoDraw = False
+150.1996 	EXP 	New trial (rep=0, index=12): {'shape': 'circle', 'colourshape': 'square.png', 'picture': 'circledim.png', 'correctAns': 'right'}
+150.2193 	EXP 	cros2: autoDraw = False
+150.2193 	EXP 	opaque: autoDraw = False
+150.2193 	EXP 	opaque: image = 'circledim.png'
+150.2193 	EXP 	cros2: autoDraw = True
+150.6315 	EXP 	cros2: autoDraw = False
+150.9149 	EXP 	opaque: autoDraw = True
+151.0151 	EXP 	opaque: autoDraw = False
+152.7016 	EXP 	New trial (rep=0, index=13): {'shape': 'square', 'colourshape': 'circle.png', 'picture': 'squaredim.png', 'correctAns': 'left'}
+152.7318 	EXP 	cros2: autoDraw = False
+152.7318 	EXP 	opaque: autoDraw = False
+152.7318 	EXP 	opaque: image = 'squaredim.png'
+152.7318 	EXP 	cros2: autoDraw = True
+153.1323 	EXP 	cros2: autoDraw = False
+153.4142 	EXP 	opaque: autoDraw = True
+153.5149 	EXP 	opaque: autoDraw = False
+155.1987 	EXP 	New trial (rep=0, index=14): {'shape': 'circle', 'colourshape': 'circle.png', 'picture': 'circledim.png', 'correctAns': 'right'}
+155.2170 	EXP 	cros2: autoDraw = False
+155.2170 	EXP 	opaque: autoDraw = False
+155.2170 	EXP 	opaque: image = 'circledim.png'
+155.2170 	EXP 	cros2: autoDraw = True
+155.6310 	EXP 	cros2: autoDraw = False
+155.8983 	EXP 	opaque: autoDraw = True
+155.9986 	EXP 	opaque: autoDraw = False
+157.6993 	EXP 	New trial (rep=0, index=15): {'shape': 'square', 'colourshape': 'circle.png', 'picture': 'squaredim.png', 'correctAns': 'left'}
+157.7233 	EXP 	cros2: autoDraw = False
+157.7233 	EXP 	opaque: autoDraw = False
+157.7233 	EXP 	opaque: image = 'squaredim.png'
+157.7233 	EXP 	cros2: autoDraw = True
+158.1305 	EXP 	cros2: autoDraw = False
+158.4138 	EXP 	opaque: autoDraw = True
+158.5141 	EXP 	opaque: autoDraw = False
+160.1997 	EXP 	New trial (rep=0, index=16): {'shape': 'circle', 'colourshape': 'square.png', 'picture': 'circledim.png', 'correctAns': 'right'}
+160.2249 	EXP 	cros2: autoDraw = False
+160.2249 	EXP 	opaque: autoDraw = False
+160.2249 	EXP 	opaque: image = 'circledim.png'
+160.2249 	EXP 	cros2: autoDraw = True
+160.6328 	EXP 	cros2: autoDraw = False
+160.9134 	EXP 	opaque: autoDraw = True
+161.0127 	EXP 	opaque: autoDraw = False
+162.6997 	EXP 	New trial (rep=0, index=17): {'shape': 'square', 'colourshape': 'square.png', 'picture': 'squaredim.png', 'correctAns': 'left'}
+162.7248 	EXP 	cros2: autoDraw = False
+162.7248 	EXP 	opaque: autoDraw = False
+162.7248 	EXP 	opaque: image = 'squaredim.png'
+162.7248 	EXP 	cros2: autoDraw = True
+163.1296 	EXP 	cros2: autoDraw = False
+163.4151 	EXP 	opaque: autoDraw = True
+163.5296 	EXP 	opaque: autoDraw = False
+165.2012 	EXP 	New trial (rep=0, index=18): {'shape': 'circle', 'colourshape': 'circle.png', 'picture': 'circledim.png', 'correctAns': 'right'}
+165.2228 	EXP 	cros2: autoDraw = False
+165.2228 	EXP 	opaque: autoDraw = False
+165.2228 	EXP 	opaque: image = 'circledim.png'
+165.2228 	EXP 	cros2: autoDraw = True
+165.6290 	EXP 	cros2: autoDraw = False
+165.9119 	EXP 	opaque: autoDraw = True
+166.0136 	EXP 	opaque: autoDraw = False
+167.6994 	EXP 	New trial (rep=0, index=19): {'shape': 'square', 'colourshape': 'square.png', 'picture': 'squaredim.png', 'correctAns': 'left'}
+167.7286 	EXP 	cros2: autoDraw = False
+167.7286 	EXP 	opaque: autoDraw = False
+167.7286 	EXP 	opaque: image = 'squaredim.png'
+167.7286 	EXP 	cros2: autoDraw = True
+168.1283 	EXP 	cros2: autoDraw = False
+168.4118 	EXP 	opaque: autoDraw = True
+168.5111 	EXP 	opaque: autoDraw = False
+170.1953 	EXP 	New trial (rep=0, index=20): {'shape': 'circle', 'colourshape': 'circle.png', 'picture': 'circledim.png', 'correctAns': 'right'}
+170.2116 	EXP 	cros2: autoDraw = False
+170.2116 	EXP 	opaque: autoDraw = False
+170.2116 	EXP 	opaque: image = 'circledim.png'
+170.2116 	EXP 	cros2: autoDraw = True
+170.6116 	EXP 	cros2: autoDraw = False
+170.8944 	EXP 	opaque: autoDraw = True
+170.9957 	EXP 	opaque: autoDraw = False
+172.6827 	EXP 	New trial (rep=0, index=21): {'shape': 'circle', 'colourshape': 'circle.png', 'picture': 'circledim.png', 'correctAns': 'right'}
+172.7106 	EXP 	cros2: autoDraw = False
+172.7106 	EXP 	opaque: autoDraw = False
+172.7106 	EXP 	opaque: image = 'circledim.png'
+172.7106 	EXP 	cros2: autoDraw = True
+173.1109 	EXP 	cros2: autoDraw = False
+173.3935 	EXP 	opaque: autoDraw = True
+173.4946 	EXP 	opaque: autoDraw = False
+175.1807 	EXP 	New trial (rep=0, index=22): {'shape': 'square', 'colourshape': 'circle.png', 'picture': 'squaredim.png', 'correctAns': 'left'}
+175.2022 	EXP 	cros2: autoDraw = False
+175.2022 	EXP 	opaque: autoDraw = False
+175.2022 	EXP 	opaque: image = 'squaredim.png'
+175.2022 	EXP 	cros2: autoDraw = True
+175.6104 	EXP 	cros2: autoDraw = False
+175.8949 	EXP 	opaque: autoDraw = True
+175.9943 	EXP 	opaque: autoDraw = False
+177.6960 	EXP 	New trial (rep=0, index=23): {'shape': 'circle', 'colourshape': 'square.png', 'picture': 'circledim.png', 'correctAns': 'right'}
+177.7189 	EXP 	cros2: autoDraw = False
+177.7189 	EXP 	opaque: autoDraw = False
+177.7189 	EXP 	opaque: image = 'circledim.png'
+177.7189 	EXP 	cros2: autoDraw = True
+178.1268 	EXP 	cros2: autoDraw = False
+178.4107 	EXP 	opaque: autoDraw = True
+178.5267 	EXP 	opaque: autoDraw = False
+180.2109 	EXP 	New trial (rep=0, index=24): {'shape': 'circle', 'colourshape': 'square.png', 'picture': 'circledim.png', 'correctAns': 'right'}
+180.2307 	EXP 	cros2: autoDraw = False
+180.2307 	EXP 	opaque: autoDraw = False
+180.2307 	EXP 	opaque: image = 'circledim.png'
+180.2307 	EXP 	cros2: autoDraw = True
+180.6428 	EXP 	cros2: autoDraw = False
+180.9281 	EXP 	opaque: autoDraw = True
+181.0424 	EXP 	opaque: autoDraw = False
+182.6969 	EXP 	New trial (rep=0, index=25): {'shape': 'circle', 'colourshape': 'circle.png', 'picture': 'circledim.png', 'correctAns': 'right'}
+182.7255 	EXP 	cros2: autoDraw = False
+182.7255 	EXP 	opaque: autoDraw = False
+182.7255 	EXP 	opaque: image = 'circledim.png'
+182.7255 	EXP 	cros2: autoDraw = True
+183.1262 	EXP 	cros2: autoDraw = False
+183.4095 	EXP 	opaque: autoDraw = True
+183.5088 	EXP 	opaque: autoDraw = False
+185.2102 	EXP 	New trial (rep=0, index=26): {'shape': 'circle', 'colourshape': 'circle.png', 'picture': 'circledim.png', 'correctAns': 'right'}
+185.2298 	EXP 	cros2: autoDraw = False
+185.2298 	EXP 	opaque: autoDraw = False
+185.2298 	EXP 	opaque: image = 'circledim.png'
+185.2298 	EXP 	cros2: autoDraw = True
+185.6413 	EXP 	cros2: autoDraw = False
+185.9245 	EXP 	opaque: autoDraw = True
+186.0256 	EXP 	opaque: autoDraw = False
+187.7095 	EXP 	New trial (rep=0, index=27): {'shape': 'square', 'colourshape': 'square.png', 'picture': 'squaredim.png', 'correctAns': 'left'}
+187.7306 	EXP 	cros2: autoDraw = False
+187.7306 	EXP 	opaque: autoDraw = False
+187.7306 	EXP 	opaque: image = 'squaredim.png'
+187.7306 	EXP 	cros2: autoDraw = True
+188.1431 	EXP 	cros2: autoDraw = False
+188.4245 	EXP 	opaque: autoDraw = True
+188.5244 	EXP 	opaque: autoDraw = False
+190.2080 	EXP 	New trial (rep=0, index=28): {'shape': 'circle', 'colourshape': 'circle.png', 'picture': 'circledim.png', 'correctAns': 'right'}
+190.2239 	EXP 	cros2: autoDraw = False
+190.2239 	EXP 	opaque: autoDraw = False
+190.2239 	EXP 	opaque: image = 'circledim.png'
+190.2239 	EXP 	cros2: autoDraw = True
+190.6238 	EXP 	cros2: autoDraw = False
+190.9082 	EXP 	opaque: autoDraw = True
+191.0077 	EXP 	opaque: autoDraw = False
+192.6943 	EXP 	New trial (rep=0, index=29): {'shape': 'square', 'colourshape': 'circle.png', 'picture': 'squaredim.png', 'correctAns': 'left'}
+192.7149 	EXP 	cros2: autoDraw = False
+192.7149 	EXP 	opaque: autoDraw = False
+192.7149 	EXP 	opaque: image = 'squaredim.png'
+192.7149 	EXP 	cros2: autoDraw = True
+193.1249 	EXP 	cros2: autoDraw = False
+193.4077 	EXP 	opaque: autoDraw = True
+193.5074 	EXP 	opaque: autoDraw = False
+195.2239 	EXP 	cros2: autoDraw = False
+195.2239 	EXP 	opaque: autoDraw = False
+195.3449 	EXP 	window1: mouseVisible = True
